@@ -9,6 +9,14 @@ https://github.com/chandrawi/LoRaRF-Arduino/blob/main/examples/SX126x/SX126x_LoR
 Works well with the **Ra-01S SX1268 433MHz Lora Module**.
 
 ```C++
+
+/*
+
+Sketch uses 6771 bytes (20%) of program storage space. Maximum is 32768 bytes.
+Global variables use 269 bytes (8%) of dynamic memory, leaving 2803 bytes for local variables. Maximum is 3072 bytes.
+
+*/
+
 // include the library
 #include <SX126x.h>
 

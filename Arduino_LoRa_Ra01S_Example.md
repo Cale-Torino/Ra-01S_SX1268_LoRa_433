@@ -43,6 +43,20 @@ https://github.com/chandrawi/LoRaRF-Arduino
 
 https://github.com/nopnop2002/Arduino-LoRa-Ra01S
 
+
+WITH SERIAL
+
+Sketch uses 7719 bytes (23%) of program storage space. Maximum is 32768 bytes.
+Global variables use 182 bytes (5%) of dynamic memory, leaving 2890 bytes for local variables. Maximum is 3072 bytes.
+
+SERIAL REMOVED
+Sketch uses 5846 bytes (17%) of program storage space. Maximum is 32768 bytes.
+Global variables use 182 bytes (5%) of dynamic memory, leaving 2890 bytes for local variables. Maximum is 3072 bytes.
+
+pinMode and digitalWrite replaced
+Sketch uses 5642 bytes (17%) of program storage space. Maximum is 32768 bytes.
+Global variables use 182 bytes (5%) of dynamic memory, leaving 2890 bytes for local variables. Maximum is 3072 bytes.
+
 */
 
 #include <Ra01S.h>
