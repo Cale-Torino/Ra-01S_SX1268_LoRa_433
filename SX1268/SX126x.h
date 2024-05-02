@@ -341,11 +341,9 @@
 // common low-level SPI interface
 class SX126x {
   public:
-    SX126x(int spiSelect, int reset, int busy, int interrupt);
+    SX126x(int spiSelect, int reset, int busy);
 
-    //int16_t begin(uint8_t packetType, uint32_t frequencyInHz, int8_t txPowerInDbm);
     int16_t begin(uint32_t frequencyInHz, int8_t txPowerInDbm);
-    //int16_t LoRaConfig(uint8_t spreadingFactor, uint8_t bandwidth, uint8_t codingRate, uint16_t preambleLength, uint8_t payloadLen, bool crcOn, bool invertIrq);
     void LoRaConfig(uint8_t spreadingFactor, uint8_t bandwidth, uint8_t codingRate, uint16_t preambleLength, uint8_t payloadLen, bool crcOn, bool invertIrq);
     uint8_t Receive(uint8_t *pData, uint16_t len);
     bool    Send(uint8_t *pData, uint8_t len, uint8_t mode);
